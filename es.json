@@ -1,0 +1,14 @@
+{
+    "hello": "hola",
+    "numeros": {
+        "primero": "uno",
+        "segundo": {
+            "dos.uno":"dos uno",
+            "dos_dos":"dos dos"
+        }
+    },
+    "Hello": "Hola",
+    "tab.inicio.primero":"aaaaa",
+    "tab_footer_primary":"dddddddsa, 'sdñlfjsa'. To asldfk jasñldfkas fasñldfk",
+    "htmlText":"<p>Hola</p>"
+}

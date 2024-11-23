@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Convertidor JSON a CSV</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="grid-container">
+    <h1>Convertidor JSON a CSV</h1>
+
+    <div class="drop-zone" id="dropZone">
+      <input type="file" id="fileInput" accept=".json,.csv" hidden>
+      <p>Arrastra y suelta tu archivo JSON o CSV aquí o haz clic para seleccionar</p>
+    </div>
+
+    <div class="actions">
+      <button id="btnDescargarCSV" disabled onclick="descargarCSV()">Descargar CSV</button>
+      <button id="btnDescargarJSON" disabled onclick="descargarJSON()">Descargar JSON</button>
+    </div>
+    <div class="container">
+      <h3>JSON:</h3>
+      <textarea id="jsonInput" readonly></textarea>
+    </div>
+
+    <div class="container">
+      <h3>CSV:</h3>
+      <textarea id="csvOutput" readonly></textarea>
+    </div>
+  </div>
+</body>
+<script src="main.js"></script>
+
+</html>
