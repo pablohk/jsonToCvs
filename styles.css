@@ -49,6 +49,7 @@ button {
   grid-column: 1 / -1;
   grid-template-columns: 1fr 1fr;
   width: 100%;
+  gap: 20px;
 }
 
 .drop-zone {
